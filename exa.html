@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sign In / Sign Up | Nothing4us</title>
+  <link rel='stylesheet' href='../css/style2.css'>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login-container">
+    <form
+                         action="https://formspree.io/f/xgeqgjlk"
+                          method="POST"
+                         class="form-login">
+	<form action="" class="form-login">
+		<ul class="login-nav">
+			<li class="login-nav__item active">
+				<a href="#">Sign In</a>
+			</li>
+			<li class="login-nav__item">
+				<a href="#">Sign Up</a>
+			</li>
+		</ul>
+		<form action="/action_page.php">
+			<label for="loginUser" required>User Name</label>
+			<input type="text" id="loginUser" name="User name"><br><br>
+			<label for="password">Pasword</label>
+			<input type="text" id="Password" name="Password"><br><br>
+			<input type="submit" value="Submit">
+		  </form>
+		<input id="login-input-password" class="login__input" type="password" />
+		<label for="login-sign-up" class="login__label--checkbox">
+			<input id="login-sign-up" type="checkbox" class="login__input--checkbox" />
+			Keep me Signed in
+		</label>
+		<button class="login__submit" enabled>Sign in</button>
+	</form>
+	<a href="#" class="login__forgot">Forgot Password?</a>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
